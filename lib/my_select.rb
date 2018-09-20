@@ -17,6 +17,6 @@ end
 collection = [1, 2, 3, 4, 5]
 my_select(collection) do |n|
   if n.even?
-    return n
+    n
   end 
 end 

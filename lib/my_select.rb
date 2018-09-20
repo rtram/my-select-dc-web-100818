@@ -1,5 +1,4 @@
 def my_select(array)
-  if block_given?
     i = 0 
     new_array = []
   
@@ -9,9 +8,6 @@ def my_select(array)
     end 
     
     new_array
-  else 
-    puts "Hey! No block was given!"
-  end 
 end
 
 collection = [1, 2, 3, 4, 5]
